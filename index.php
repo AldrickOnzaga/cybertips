@@ -37,7 +37,7 @@
         </div>
         <div class="button-menu">
           <div class="button-menu-list">
-            <a href="#">Tips</a>
+            <a href="tips.php">Tips</a>
         </div>
 
           <div class="button-menu-list">
@@ -45,7 +45,7 @@
           </div>
 
           <div class="button-menu-list">
-            <a href="#">News</a>
+            <a href="news.php">News</a>
           </div>
                 
         </div>
