@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <div class="navigator">
@@ -24,7 +23,33 @@
     </div>
 
     <div class="main">
+    <h1>About Us</h1>
+			<p>
+        We are CYBERTIPS, a website dedicated to providing information about online safety and security. Our mission is to help educate people about the risks of the internet and provide tips and resources to stay safe online.
+      </p>
+      <br></br>
+      <div class="profile-container">
+        <div class="profile-details">
+          <img src="resources/laorden.png" alt="John Rey A. Laorden">
+          <p>John Rey A. Laorden</p>
+          <p>Member</p>
+          <p>Document</p>
+        </div>
 
+        <div class="profile-details">
+          <img src="resources/onzaga.jpg" alt="Aldrick Calasin Onzaga">
+          <p>Aldrick C. Onzaga</p>
+          <p>Leader</p>
+          <p>Main programmer</p>
+        </div>
+
+        <div class="profile-details">
+          <img src="resources/master.jpg" alt="Rañopa, John Ishmael V.">
+          <p>John Ishmael V. Rañopa</p>
+          <p>Member</p>
+          <p>Document</p>
+        </div>
+      </div>
     </div>
 
     <div class="footer">
