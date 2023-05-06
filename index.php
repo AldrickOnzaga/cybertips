@@ -27,9 +27,10 @@
         <p>This website will be use for increasing the awareness of the student of the Fort Bonifacio Senior HighSchool</p>
         <div class="video-container">
           <video controls controlsList="nodownload" class="main_video" oncontextmenu="return false;">
+          <!-- credit to the editor of the video: Miss Kimberly Vargas -->
             <?php
-              $video_src = "video/30sec.mp4"; // Replace with the URL of your video file
-              $video_type = mime_content_type($video_src); // Get the MIME type of the video file
+              $video_src = "resources/intro.mp4";
+              $video_type = mime_content_type($video_src);
             ?>
             <source src="<?php echo $video_src ?>" type="<?php echo $video_type ?>">
             Your browser does not support the video tag.
