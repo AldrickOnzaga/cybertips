@@ -313,6 +313,7 @@
 }
 
 /* tips */
+
 .tips-intro {
   text-align: left;
   padding: 20px;
@@ -332,6 +333,7 @@
   line-height: 1.4;
   margin-bottom: 0;
 }
+
 .tips-container {
   display: flex;
   justify-content: center;
@@ -344,7 +346,7 @@
 .tip-details {
   width: 300px;
   height: 400px;
-  background-color: #5C9DFF;
+  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   padding: 20px;
   box-sizing: border-box;
@@ -354,4 +356,40 @@
   justify-content: center;
   align-items: center;
   margin: 20px;
+}
+
+.tip-details img {
+  max-width: 100%;
+  height: 100%;
+}
+  
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.read-more:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+  .tip-details {
+    height: 300px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .tip-details {
+    height: 250px;
+    width: 200px;
+  }
 }
