@@ -39,13 +39,13 @@
           <img src="resources/post.png" alt="post">
           <h1>Ready to post your picture?</h1>
           <p>You're ready to post your vacation photo, quote of the day, or anything else you want to share? You should think before you post.</p>
-          <a href="tips/juice-jacking.php" class="read-more">Read more</a>
+          <a href="tips/think-before-you-share.php" class="read-more">Read more</a>
         </div>
         <div class="tip-details">
           <img src="resources/pera.png" alt="atm">
           <h1>Are you using e-wallet or atm card?</h1>
           <p>You've always used an ATM card or e-wallet to purchase your goods, so how are you sure your ATM card or e-wallet is secured?.</p>
-          <a href="tips/juice-jacking.php" class="read-more">Read more</a>
+          <a href="tips/protect-your-money.php" class="read-more">Read more</a>
         </div>
       </div>
     </div>
