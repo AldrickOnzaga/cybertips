@@ -52,7 +52,6 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
     </div>
-
     <div class="footer">
       <h>CYBERTIPS</h>
     </div>
