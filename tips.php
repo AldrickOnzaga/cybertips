@@ -43,7 +43,7 @@
         </div>
         <div class="tip-details">
           <img src="resources/pera.png" alt="atm">
-          <h1>Are you using e-wallet or atm card?</h1>
+          <h1>Are you using e-wallet/atm card?</h1>
           <p>You've always used an ATM card or e-wallet to purchase your goods, so how are you sure your ATM card or e-wallet is secured?.</p>
           <a href="tips/protect-your-money.php" class="read-more">Read more</a>
         </div>
