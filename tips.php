@@ -32,20 +32,20 @@
           <img src="resources/low-battery.png" alt="low bat">
           <h1>Running out of battery?</h1>
           <p>You don't have a power bank. No choice but to use a public charging station? You should know this before you do that.</p>
-          <a href="resources/juice-jacking.pdf" class="read-more" id="read-more">Read more</a>
+          <a href="tips/juice-jacking.php" class="read-more" id="read-more">Read more</a>
           <!-- <button id="read-more">Read more</button> -->
         </div>
         <div class="tip-details">
           <img src="resources/post.png" alt="post">
           <h1>Ready to post your picture?</h1>
           <p>You're ready to post your vacation photo, quote of the day, or anything else you want to share? You should think before you post.</p>
-          <a href="#" class="read-more">Read more</a>
+          <a href="tips/juice-jacking.php" class="read-more">Read more</a>
         </div>
         <div class="tip-details">
           <img src="resources/pera.png" alt="atm">
           <h1>Are you using e-wallet or atm card?</h1>
           <p>You've always used an ATM card or e-wallet to purchase your goods, so how are you sure your ATM card or e-wallet is secured?.</p>
-          <a href="#" class="read-more">Read more</a>
+          <a href="tips/juice-jacking.php" class="read-more">Read more</a>
         </div>
       </div>
     </div>
