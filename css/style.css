@@ -299,8 +299,9 @@
 
 .module-details {
   width: 300px;
-  height: 400px;
-  background-color: #5C9DFF;
+  height: auto;
+  max-width: 100%;
+  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   padding: 20px;
   box-sizing: border-box;
@@ -312,8 +313,22 @@
   margin: 20px;
 }
 
-/* tips */
+.module-details img {
+  max-width: 100%;
+  height: auto;
+}
 
+.learning-modules-container{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(to bottom right, #fff, #eee);
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* tips */
 
 .tips-intro {
   text-align: left;
@@ -364,7 +379,8 @@
   max-width: 100%;
   height: auto;
 }
-  
+
+/* readmore */
 .read-more {
   display: inline-block;
   padding: 10px 20px;
@@ -379,7 +395,6 @@
   background-color: #000;
   color: #fff;
 }
-
 
 /* slide-show */
 .slideshow-container {
@@ -456,3 +471,37 @@
   color: inherit;
   border: none;
 }
+
+/* next-prev */
+.next-prev-container{
+  position: relative;
+  width: 100%;
+  height: 70px;
+}
+.next-prev-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.prev-button,
+.next-button {
+  color: #000;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.prev-button a,
+.next-button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.prev-button a:hover,
+.next-button a:hover{
+  background-color: transparent;
+  color: inherit;
+  border: none;
+}
+

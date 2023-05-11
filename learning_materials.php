@@ -29,7 +29,16 @@
         </div>
         <div class="modules-container">
             <div class="module-details">
-
+              <img src="resources/Cybersecurity.png" alt="low bat">
+              <h1>Cybersecurity and Cyber Awareness</h1>
+              <p>What is the difference of Cybersecurity and Cyber Awareness</p>
+              <a href="learning-modules/cybersecurity-cyberawareness.php" class="read-more" id="read-more">Read more</a>
+            </div>
+            <div class="module-details">
+              <img src="resources/Cybersecurity.png" alt="low bat">
+              <h1>Securing Your Home Network</h1>
+              <p>Best practices that may helpful for your home</p>
+              <a href="learning-modules/securing-home-network.php" class="read-more" id="read-more">Read more</a>
             </div>
         </div>
     </div>
