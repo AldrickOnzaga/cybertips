@@ -31,7 +31,7 @@
         <div class="prev-button">
         </div>
         <div class="next-button">
-          <a href="#">Next</a>
+          <a href="#"></a>
         </div>
       </div>
       <div class="learning-modules-container">
@@ -64,8 +64,11 @@
             Conclusion
           </h2>
           <p>
-          Between cybersecurity and cyberawareness, they are both similar to protecting the device and data of a person or self from the danger that they may encounter from the internet or a malicious person.
+          Between cybersecurity and cyberawareness, they are both similar to protecting the device and data of a person or self from the danger that they may encounter from the internet, an attack from a malicious person, or other online criminality. However, they have a difference: one is to protect the data from cyberattacks, and the other is to be aware of and keep safe from the internet.
           </p>
+          <div class="interactive">
+            
+          </div>
         </div>
       </div>
     </div>

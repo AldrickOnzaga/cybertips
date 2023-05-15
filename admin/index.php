@@ -1,14 +1,16 @@
 <?php
 
-    include_once '../config/config.php';
-    session_start();
+include_once '../config/config.php';
+session_start();
 
 // Check if user is logged in
-    if (!isset($_SESSION['admin_name'])) {
-    // Redirect to homepage if user is not logged in
-    header('location:index.php');
-    exit;}
+if (!isset($_SESSION['admin_name'])) {
+    // Redirect to login page if user is not logged in
+    header('location:login.php');
+    exit;
+}
 ?>
+
 <!DOCTYPE html>
 <html>
   <head>
