@@ -56,4 +56,12 @@
       <h>CYBERTIPS</h>
     </div>
   </body>
+  <script>
+        window.addEventListener('load', function() {
+            var logo = document.getElementById('logo');
+            logo.addEventListener('click', function() {
+                window.location.href = 'index.php';
+            });
+        });
+  </script>
 </html>

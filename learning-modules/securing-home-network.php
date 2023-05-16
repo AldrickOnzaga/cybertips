@@ -32,7 +32,7 @@
         <div class="prev-button">
         </div>
         <div class="next-button">
-          <a href="#">Next</a>
+          <a href="guest-network.php">Next</a>
         </div>
       </div>
       <div class="learning-modules-container">

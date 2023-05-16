@@ -26,7 +26,7 @@
       <h1>Welcome to CYBERTIPS</h1>
         <p>This website will be use for increasing the awareness of the student of the Fort Bonifacio Senior HighSchool</p>
         <div class="video-container">
-          <video controls controlsList="nodownload" class="main_video" oncontextmenu="return false;">
+          <video id="main-video" controlsList="nodownload" class="main_video" oncontextmenu="return false;" autoplay>
           <!-- credit to the editor of the video: Miss Kimberly Vargas -->
             <?php
               $video_src = "resources/intro.mp4";
@@ -56,4 +56,24 @@
       <h>CYBERTIPS</h>
     </div>
   </body>
+  <script>
+        window.addEventListener('load', function() {
+            var logo = document.getElementById('logo');
+            logo.addEventListener('click', function() {
+                window.location.href = 'index.php';
+            });
+        });
+  </script>
+  <script>
+  var video = document.getElementById('main-video');
+
+  // Add a click event listener to the video
+  video.addEventListener('click', function() {
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+</script>
 </html>
