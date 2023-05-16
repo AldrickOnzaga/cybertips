@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/video.css">
     <link rel="stylesheet" href="../css/password-generator.css">
+    <link rel="stylesheet" href="../css/quiz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body>
@@ -56,7 +57,12 @@
             Conclusion
           </h2>
           <p>Creating a guest network for your guests is hospitable and also one of the best practices to avoid getting malicious programs or files into your network. It is essentially necessary to put a password on your guest network; it is preferable to use WPA2 or WPA3 for your security.</p>
-          <p>You can take a short quiz if you understand how important this module is. <a href=""#>Quiz here</a></p>
+          <div class="quiz-container">
+            <h1>Question for this page!</h1>
+            <h2>The guest devices can carry  <input type="text" id="answer1" class="quiz-input"> that can be inserted into the home network.</h2>
+            <button onclick="checkAnswer()" class="quiz-button">Submit</button>
+            <p id="feedback" class="quiz-feedback"></p>
+          </div>
           </div>
       </div>
     </div>
@@ -64,4 +70,23 @@
       <h>CYBERTIPS</h>
     </div>
   </body>
+  <script>
+    // Clear the input field when the page is refreshed
+    window.onload = function() {
+      document.getElementById('answer1').value = '';
+    };
+
+    function checkAnswer() {
+      // Get the user's answer
+      var userAnswer = document.getElementById('answer1').value;
+
+      // Compare the user's answer to the correct answer
+      var correctAnswer = "security threats";
+      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+        document.getElementById('feedback').textContent = "Correct! The guest devices can carry security threats that you aren't aware of; therefore, create a guest network.";
+      } else {
+        document.getElementById('feedback').textContent = "Incorrect. The answer is 'security threats'. The guest devices can carry security threats that will become a problem on the home network.";
+      }
+    }
+  </script>
 </html>

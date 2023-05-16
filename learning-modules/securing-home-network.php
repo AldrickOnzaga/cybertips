@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/video.css">
     <link rel="stylesheet" href="../css/password-generator.css">
+    <link rel="stylesheet" href="../css/quiz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body>
@@ -72,8 +73,13 @@
           <p>
           Changing your password can make your network hard to access and crack. Passwords ought to be strong, exclusive to a person, and hard to crack. It is one of the ways that it will help you protect your home network. The next page is about creating a guest network on your home network.
           </p>
-          <p>You can take a short quiz if you understand how important this module is. <a href=""#>Quiz here</a></p>
+          <div class="quiz-container">
+            <h2>Question for this page!</h2>
+            <h2>Being <input type="text" id="answer1" class="quiz-input"> on the new patches is good for the devices and software.</h2>
+            <button onclick="checkAnswer()" class="quiz-button">Submit</button>
+            <p id="feedback" class="quiz-feedback"></p>
           </div>
+        </div>
       </div>
     </div>
 
@@ -81,4 +87,23 @@
       <h>CYBERTIPS</h>
     </div>
   </body>
+  <script>
+    // Clear the input field when the page is refreshed
+    window.onload = function() {
+      document.getElementById('answer1').value = '';
+    };
+
+    function checkAnswer() {
+      // Get the user's answer
+      var userAnswer = document.getElementById('answer1').value;
+
+      // Compare the user's answer to the correct answer
+      var correctAnswer = "up-to-date";
+      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+        document.getElementById('feedback').textContent = "Correct! Always update your devices and software to provide a new patch of security.";
+      } else {
+        document.getElementById('feedback').textContent = "Incorrect, the answer is 'up-to-date' Being up-to-date on the new patches is good for the devices and software.";
+      }
+    }
+  </script>
 </html>
