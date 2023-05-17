@@ -1,0 +1,39 @@
+/* Add this CSS to your news-container.css file or create a new CSS file */
+
+.news-container {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.news-item {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.news-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.news-item .read-more {
+  font-size: 14px;
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.news-item .read-more:hover {
+  color: #fff;
+  text-decoration: none;
+}
