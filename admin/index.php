@@ -83,7 +83,7 @@ if (!isset($_SESSION['admin_name'])) {
                             echo "<td>" . $row['id'] . "</td>";
                             echo "<td>" . $row['title'] . "</td>";
                             echo "<td>" . $row['content'] . "</td>";
-                            echo "<td><img src='" . $row['image'] . "' alt='News Image'></td>";
+                            echo "<td><img src='resources/img/" . $row['image'] . "' alt='News Image'></td>";
                             echo "<td>" . $row['link'] . "</td>";
                             echo "<td>" . $row['created_at'] . "</td>";
                             echo "<td>";

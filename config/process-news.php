@@ -14,8 +14,11 @@ if (isset($_POST['upload'])) {
     $uploaded_image = $upload_directory . $image;
     move_uploaded_file($image_tmp, $uploaded_image);
 
+    // Get only the name of the image file
+    $image_name = basename($uploaded_image);
+
     // Insert the form data into the database
-    $query = "INSERT INTO news (title, content, image, link) VALUES ('$title', '$content', '$uploaded_image', '$link')";
+    $query = "INSERT INTO news (title, content, image, link) VALUES ('$title', '$content', '$image_name', '$link')";
     $result = mysqli_query($conn, $query);
 
     if ($result) {
